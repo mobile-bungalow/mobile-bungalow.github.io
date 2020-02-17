@@ -1,0 +1,25 @@
+name: "Heavily Embedded Denny's Pleather Seat Crumb"
+description: "Tangents, at best."
+url: "mobile-bungalow.github.io"
+baseurl: ""
+cats:
+ - Programming
+ - Essays
+
+relative_permalinks: false
+permalink: ":year:month:day-:title.html"
+
+markdown: kramdown
+
+kramdown:
+  hard_wrap: false
+  entity_output: "symbolic"
+  line_width: 68
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      layout: "post"
