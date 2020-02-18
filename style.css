@@ -4,8 +4,8 @@
 }
 
 body {
-  background: #aaa;
-
+  background-image: url('/assets/bg.png');
+  background-size: 65%;
   font-family: "Arial", "Helvetica", sans-serif;
 }
 
@@ -14,7 +14,7 @@ div#wrapper {
   border-right: 2px solid #000;
   border-bottom: 2px solid #000;
   border-left: 2px solid #fff;
-
+  
   background: #79c;
 
   max-width: 720px;
